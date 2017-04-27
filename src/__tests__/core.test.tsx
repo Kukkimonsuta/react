@@ -5,7 +5,7 @@ import { shallow, mount, render } from "enzyme";
 import * as sinon from "sinon";
 
 import {UIRouterReact, UIView, UISref, ReactStateDeclaration} from "../index";
-import {services, UrlMatcher} from 'ui-router-core';
+import {services, UrlMatcher} from '@uirouter/core';
 
 describe("UIRouterReact class", () => {
 

@@ -6,7 +6,7 @@ import * as React from 'react';
 import {Component, PropTypes, createElement, cloneElement, isValidElement, ValidationMap} from 'react';
 import * as _classNames from 'classnames';
 import {UIRouterReact} from '../index';
-import {extend, TransitionOptions} from 'ui-router-core';
+import {extend, TransitionOptions} from '@uirouter/core';
 import {UIViewAddress} from "./UIView";
 
 let classNames = _classNames;
